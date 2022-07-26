@@ -1,0 +1,23 @@
+{
+    "name": "chudeusz/owndev-payu",
+    "description": "OwnDev PayU",
+    "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "openpayu/openpayu": "2.3.*",
+        "symfony/framework-bundle": "5.4.*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Chudeusz\\OwndevPayu\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kamil Karpiński",
+            "email": "chudeusz@owndev.pl"
+        }
+    ],
+    "minimum-stability": "stable"
+}
