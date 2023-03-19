@@ -3,9 +3,9 @@
     "description": "OwnDev PayU",
     "type": "library",
     "require": {
-        "php": ">=7.4",
+        "php": ">=7.4|>=8.2",
         "openpayu/openpayu": "2.3.*",
-        "symfony/framework-bundle": "5.4.*"
+        "symfony/framework-bundle": "5.4.*|6.2.*"
     },
     "license": "MIT",
     "autoload": {
